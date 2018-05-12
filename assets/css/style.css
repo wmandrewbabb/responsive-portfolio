@@ -1,0 +1,326 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightgray;
+    -webkit-align-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+#topwhite{
+    width: 100%;
+    background-color: white;
+}
+
+#topnav{
+    min-height: 50px;
+    max-width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    position: static;
+}
+
+#navlinks2{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: static;
+}
+
+#name{
+    font-size: 18px;
+    color:white;
+    background-color: teal;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    height: 50px;
+    padding-top: 30px;
+    position: static;
+}
+
+#navlinks{
+    float: right;
+    font-size: 12px;
+    background-color:white;
+    color: #666;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 27px;
+    height:47px;
+    position: static;
+}
+
+#bigbody{
+    background-color:lightgrey;
+    border-top-color: dimgray;
+    border-top-width:2px;
+    width: 100%;
+}
+
+#textbodycenter{
+    /*margin: 0 auto;
+    max-width: 768px;*/
+    max-width: 768px;
+    min-width: 708px;
+    float: left;    
+    margin-left: 50px;
+}
+
+#textbody{
+    background-color: white;
+    margin-top: 24px;
+    color: black;
+    border-color: dimgray;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 48px;
+    text-align: left;
+    margin-bottom: 24px;
+    float: left;
+
+}
+
+#textbodyf{
+    background-color: white;
+    margin-top: 24px;
+    color: black;
+    border-color: dimgray;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 48px;
+    text-align: left;
+    margin-bottom: 24px;
+
+}
+
+#textbodyport{
+    background-color: white;
+    margin-top: 24px;
+    color: black;
+    border-color: dimgray;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 48px;
+    text-align: left;
+    height: 500px;
+    margin-bottom: 24px;
+    overflow: scroll;
+
+}
+
+#myimage{
+    float:left; 
+    margin-right: 10px;
+    margin-bottom: 10px;    
+}
+
+h1{
+    color:teal;
+    font-size: 18px;
+}
+
+p{
+    margin-bottom: 12px;
+}
+
+img{
+    margin-bottom:10px;
+    margin-right:10px;
+    float: left;
+}
+
+#bottomteal{
+    background-color: teal;
+    height:5px;
+    position:fixed;
+    width:100%;
+    bottom:0;
+}
+
+
+.textcomments{
+    height: 250px;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+.submitbutton{
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    #topnav{
+        min-height: 50px;
+        max-width: 768px;
+        background-color: white;
+        margin: 0 auto;
+        overflow: hidden;
+        position: static;
+    }
+
+    #name{
+        font-size: 18px;
+        color:white;
+        background-color: teal;
+        padding-left: 20px;
+        padding-right: 20px;
+        float: left;
+        height: 50px;
+        padding-top: 30px;
+        position: static;
+    }
+    
+    #navlinks{
+        display: inline-block;
+        float: right;
+        font-size: 12px;
+        background-color:white;
+        color: #666;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 27px;
+        height:50px;
+        position: static;
+    }
+
+    #textbodycenter{
+        clear: auto;
+        margin: 0 auto;
+        max-width: 748px;
+        min-width: 640px;
+    }
+
+    #textbody{
+        background-color: white;
+        margin-top: 24px;
+        color: black;
+        border-color: dimgray;
+        border-radius: 5px;
+        border-width: 1px;
+        padding: 48px;
+        text-align: left;
+        margin-bottom: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+    form{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+    #textbodycenter{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    #topnav{
+        min-height: 50px;
+        max-width: 640  px;
+        background-color: white;
+        margin: 0 auto;
+        overflow: hidden;
+        position: static;
+    }
+
+    #name{
+        font-size: 24px;
+        color:white;
+        background-color: teal;
+        text-align: center;
+        clear:auto;
+        margin: 0 auto;
+        height: 50px;
+        padding-top: 30px;
+        width: 100%;
+        position: static;
+    }
+    
+    #navlinks{  
+     display: inline-block;
+        margin: auto 0;
+        width: 100%;    
+        color: #999;
+        text-decoration: none;
+        text-align:center;
+        position: static;
+        border-left: 1px solid #efefef;
+    }
+
+    #myimage{
+        clear:auto;
+        margin: 0 auto;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        min-width: 90%; 
+           
+    }
+
+    #portimage{
+        clear:auto;
+        margin: 0 auto;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        min-width: 100%;
+        max-width: 600px;    
+    }
+
+    p{
+       clear: auto;
+        margin-bottom: 12px;
+    }
+
+    #textbodycenter{
+        clear: auto;
+        margin: 0 auto;
+        max-width: 640px;
+        min-width: 320px;
+    }
+
+    #textbody{
+        clear:auto;
+        background-color: white;
+        margin-top: 24px;
+        color: black;
+        border-color: dimgray;
+        border-radius: 5px;
+        border-width: 1px;
+        padding: 48px;
+        text-align: left;
+        margin-bottom: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    
+    form{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+    }
+}
